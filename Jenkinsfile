@@ -1,5 +1,5 @@
-pipeline {
-	agent any
+ppeline {
+	agent { label 'build' }
 
 	options {
 		buildDiscarder(logRotator(numToKeepStr: '10'))
