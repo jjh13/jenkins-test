@@ -1,4 +1,4 @@
-ppeline {
+pipeline {
 	agent { label 'build' }
 
 	options {
